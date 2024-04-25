@@ -1,4 +1,1 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-console.log(1 +  -"1" + "2");
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const channelName = getChannelName(channel);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
