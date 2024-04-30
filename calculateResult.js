@@ -1,3 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const merge = (a, b) => [...a, ...b];
+const updated = numbers.filter(element => element > 6);
