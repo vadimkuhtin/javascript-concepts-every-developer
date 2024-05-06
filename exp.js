@@ -1,2 +1,1 @@
-console.log("0 && 1 = "+(0 && 1));
-const fullName = name || 'buddy';
+const executableName = getExecutableName(channel, appName);
