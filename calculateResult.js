@@ -1,3 +1,2 @@
-const merge = (a, b) => [...a, ...b];
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const getRandomBoolean = () => Math.random() >= 0.5;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
