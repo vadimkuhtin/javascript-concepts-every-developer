@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const updated = numbers.filter(element => element > 6);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
