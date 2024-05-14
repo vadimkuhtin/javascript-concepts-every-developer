@@ -1,3 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-function myAPITS(someString: string, someNum: number) { ... };
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const channel = getChannel(computedAppVersion);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
