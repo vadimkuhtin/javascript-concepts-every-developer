@@ -1,6 +1,3 @@
-var arr1 = "john".split('');
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isEven = (num) => num % 2 === 0;
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const reversedString = str => str.split('').reverse().join('');
+console.log("0 && 1 = "+(0 && 1));
