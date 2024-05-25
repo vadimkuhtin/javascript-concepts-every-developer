@@ -1,2 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
-console.log(1 +  +"2" + "2");
+const getRandomBoolean = () => Math.random() >= 0.5;
+const merge = (a, b) => a.concat(b);
