@@ -1,2 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log( "A" - "B" + 2);
+const results = await Promise.all(resultingPromises);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
