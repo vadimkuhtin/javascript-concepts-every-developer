@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-console.log(false == '0');
+const arrayContains = (arr, element) => arr.includes(element);
+const uniqueArray = arr => [...new Set(arr)];
