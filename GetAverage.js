@@ -1,2 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const uniqueArray = arr => [...new Set(arr)];
+const isEven = (num) => num % 2 === 0;
+console.log("1 || 2 = "+(1 || 2));
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
