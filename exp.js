@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const merge = (a, b) => a.concat(b);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+var arr2 = arr1.reverse();
+const isArray = (arr) => Array.isArray(arr);
