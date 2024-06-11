@@ -1,3 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-var arr3 = "jones".split('');
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log("0 && 1 = "+(0 && 1));
+console.log(false == '0');
