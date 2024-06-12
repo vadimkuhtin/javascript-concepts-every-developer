@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const merge = (a, b) => [...a, ...b];
+const randomString = () => Math.random().toString(36).slice(2);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
