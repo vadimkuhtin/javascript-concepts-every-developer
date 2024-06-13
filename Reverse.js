@@ -1,2 +1,1 @@
-const results = await Promise.all(resultingPromises);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const merge = Object.assign({}, obj1, obj2);
