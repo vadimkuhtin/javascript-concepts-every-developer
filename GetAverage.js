@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-console.log(false == '0');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const results = await Promise.all(resultingPromises);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
