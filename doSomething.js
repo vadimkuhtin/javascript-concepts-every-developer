@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const result = await makeHttpRequest(url);
