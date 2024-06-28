@@ -1,3 +1,1 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const arrayContains = (arr, element) => arr.includes(element);
