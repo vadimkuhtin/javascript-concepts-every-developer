@@ -1,1 +1,1 @@
-const isTabInView = () => !document.hidden;
+const minNumber = arr => Math.min(...arr);
