@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const results = await Promise.all(resultingPromises);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+var c = new Counter(); c.add(); c.add(); c.add();
+const flattenedArray = arr => [].concat(...arr);
