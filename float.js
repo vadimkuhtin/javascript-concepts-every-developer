@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const maxNumber = arr => Math.max(...arr);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const result = await makeHttpRequest(url);
