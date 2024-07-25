@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const fullName = name || 'buddy';
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const result = await makeHttpRequest(url);
