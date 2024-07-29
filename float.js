@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const maxNumber = arr => Math.max(...arr);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const uniqueArray = arr => [...new Set(arr)];
+const isArray = (arr) => Array.isArray(arr);
