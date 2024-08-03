@@ -1,3 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const uniqueArray = arr => [...new Set(arr)];
-const isArray = (arr) => Array.isArray(arr);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
