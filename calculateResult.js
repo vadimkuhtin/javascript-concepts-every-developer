@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const merge = Object.assign({}, obj1, obj2);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(1 +  -"1" + "2");
